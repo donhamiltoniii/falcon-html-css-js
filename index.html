@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="layout">
+      <header class="header">
+        <h1 class="header__title">Todo List</h1>
+        <h2 class="header__subtitle">I hate you so much</h2>
+      </header>
+      <main>
+        <div class="container">
+          <section class="todo-list">
+            <h3 class="todo-list__title">Todos</h3>
+            <form class="form">
+              <input
+                class="form__input"
+                id="todo-input"
+                name="todo-input"
+                type="text"
+              />
+              <button class="form__button" type="submit">Add Todo</button>
+            </form>
+            <ul class="todo-list__list">
+              <li class="todo-list__list-item">
+                <span class="todo-list__list-item-content">Make it pretty</span>
+                <button class="todo-list__edit-button">Edit</button>
+                <button class="todo-list__delete-button">Delete</button>
+              </li>
+              <li class="todo-list__list-item">
+                <span class="todo-list__list-item-content">
+                  Make it do stuff
+                </span>
+                <button class="todo-list__edit-button">Edit</button>
+                <button class="todo-list__delete-button">Delete</button>
+              </li>
+              <li class="todo-list__list-item">
+                <span class="todo-list__list-item-content">
+                  Make it do COOL stuff (slick stuff, neat stuff. hi mommy,
+                  thanks jeans)
+                </span>
+                <button class="todo-list__edit-button">Edit</button>
+                <button class="todo-list__delete-button">Delete</button>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <small class="footer__content">© Dondon Developments 2022</small>
+      </footer>
+    </div>
+  </body>
+</html>

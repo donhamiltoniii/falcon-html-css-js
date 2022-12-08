@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #efefef;
+  margin: 0;
+}
+
+main {
+  flex: 1 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 30rem;
+  width: 90%;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form__button {
+  background-color: rgb(187, 255, 190);
+  border: 1px solid rgb(87, 155, 90);
+  color: rgb(87, 155, 90);
+}
+
+.form__input {
+  flex: 1 0 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.header__title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.todo-list {
+  background-color: white;
+  padding: 1rem;
+}
+
+.todo-list__delete-button {
+  background-color: rgb(254, 201, 201);
+  border: 1px solid rgb(154, 101, 101);
+  color: rgb(154, 101, 101);
+}
+
+.todo-list__edit-button {
+  background-color: rgb(187, 239, 255);
+  border: 1px solid rgb(87, 139, 155);
+  color: rgb(87, 139, 155);
+}
+
+.todo-list__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-list__list-item {
+  align-items: flex-start;
+  border-bottom: 1px solid #666;
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.todo-list__list-item-content,
+.todo-list__list-item-input {
+  flex: 1 0 0;
+}
+
+.todo-list__list-item-content {
+  cursor: pointer;
+}
+
+.todo-list__list-item-content--complete {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.todo-list__save-button {
+  background-color: rgb(187, 255, 190);
+  border: 1px solid rgb(87, 155, 90);
+  color: rgb(87, 155, 90);
+}
+
+.todo-list__title {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
